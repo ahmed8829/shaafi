@@ -1,0 +1,385 @@
+:root{
+    --primary: #ec1c24;
+    --secondary:rgb(46,49,145);
+    --secondary-light: #bfd2f8;
+    --bs-body-font-family: "Work Sans", sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'work sans' sans-serif;
+
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    padding: 20px;
+    background-color: rgb(46,49,145);
+    justify-content: space-around;
+    
+    
+
+}
+.container img{
+    padding-left: 30px;
+}
+.container ul{
+    list-style: none;
+     float: right; 
+     padding: 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    padding-right: 20px;
+    
+}
+.container ul a{
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container a:hover{
+    color: red;
+}
+.container a::after{
+    border-bottom: 15px solid silver;
+}
+.container a::before{
+    content: "";
+    position: absolute;
+    width: 0.15%;
+    height: 3px;
+    bottom: 3px;
+    transform: translateX(-20%);
+    background-color: #dc3545;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+.container a:hover::before{
+    visibility: visible;
+    width: 100px;
+}
+.contact{
+    padding: 20px;
+}
+.head{
+    text-align: center;
+    padding: 20px 0px;
+}
+.head h5 {
+    padding: 15px 0px;
+    font-size: 17px;
+    color: #ec1c24;
+}
+.head h2{
+    color: rgb(46,49,145);
+    font-size: 35px;
+}
+.contact1{
+    background-color: rgb(46,49,145);
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    padding: 50px 0px;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: -10%;
+}
+.contact1 h1{
+    color: #ec1c24;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+.contact1 p{
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.contacts {
+    padding-top: 30px ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+.contact2{
+    background-color: rgb(46,49,145);
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    padding: 50px 0px;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: -5%;
+}
+.contact2 h1{
+    color: #ec1c24;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+.contact2 p{
+    padding: 10px 0px;
+    font-size: 17px;
+}
+.contact3{
+    background-color: rgb(46,49,145);
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    padding: 50px 0px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: -5%;
+}
+.contact3 h1{
+    color: #ec1c24;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+.contact3  p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.contact4{
+    background-color: rgb(46,49,145);
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    padding: 50px 0px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: -10%;
+}
+.contact4 h1{
+    color: #ec1c24;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+.contact4  p{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(46,49,145);
+    width: 100%;
+    height: auto;
+}
+.foot{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot1 {
+    padding: 20px;
+    margin-right: -8%;
+
+}
+.foot1 h5{
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot2{
+    padding: 28px 0px;
+}
+.foot2 a{
+    padding: 5px;
+    display: block;
+}
+.foot #fo{
+    padding: 10px 0px;
+}
+.foot2 h2{
+    color: white;
+}
+.foot3 {
+    padding: 28px 0px;
+    margin-left: -7%;
+}
+.foot3 a{
+    padding: 10px ;
+    margin-left: -5%;
+}
+.foot3 h2{
+    color: white;
+}
+.foot3 .clas{
+    padding: 15px 0px;
+}
+.clas h6{
+    color: #dc3545;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.clas #email{
+    padding: 10px 0px;
+}
+#fo :hover{
+    color: #dc3545;
+}
+.clas a:hover{
+    color: #dc3545;
+}
+.foot4 {
+    padding: 28px 0px;
+    margin-left: -8%;
+}
+.foot4 h3{
+    color: white;
+    padding: 5px 0px;
+}
+.foot4 p{
+    padding: 10px 0px;
+    color: white;
+}
+.foot4  img{
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.foots{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.yaska hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.copy {
+    padding: 20px;
+    color: white;
+    padding-left: 130px;
+}
+.copy p{
+    margin-top: -15px;
+    font-size: 17px;
+    margin-right: 40px;
+    
+}
+.icon {
+    padding: 8px 0px;
+    margin-right: 130px;
+    padding-bottom: 15px ;
+}
+.icon a{
+    padding: 5px 0px;
+}
+
+.book{
+    font-family: Arial,  sans-serif;
+    margin-top:150px;
+    padding:30px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+.CONTACT{
+    width: 450px;
+    padding: 20px;
+    border: 5px solid  #0056b3;
+    border-radius: 10px;
+    background-color: rgb(46,49,145);
+    color: #fff;
+}
+.CONTACT h3{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+}
+input,select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    background-color: #bfd2f8 ;
+}
+input:focus{
+    background-color: #fff;
+}
+button{
+    width: 30%;
+    padding: 13px;
+    background-color:tomato;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+main {
+    text-align: center;
+    color: #0056b3;
+    
+}
+.home {
+    align-items: center;
+    background-image: url(blood.jpg);
+    background-repeat: no-repeat;
+}
+#discription{
+    width:100% ;
+    border-radius: 5px;
+    margin-bottom: 20px ;
+    background-color: #bfd2f8;
+}
+#discription:focus{
+    background-color: #fff;
+}
+button:hover {
+    background-color: #bfd2f8;
+}
+main{
+    padding-top: 100px;
+    
+}
+.imag{
+    background-image: url(images\ \(2\).jpeg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0,5);
+    width: 100%;
+    height: 400px;
+    margin-top: -80px;
+    align-items: center;
+}
+.image{
+    align-items: center;
+    padding-top: 200px;
+}
+.image h5{
+    color: #ec1c24;
+    font-size: 17px;
+}
+.image h1{
+    color: #fff;
+    font-size: 38px;
+    padding: 10px 0px;
+}

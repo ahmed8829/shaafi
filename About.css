@@ -1,0 +1,208 @@
+:root{
+    --primary: #ec1c24;
+    --secondary:rgb(46,49,145);
+    --secondary-light: #bfd2f8;
+    --bs-body-font-family: "Work Sans", sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'work sans' sans-serif;
+
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    padding: 20px;
+    background-color: rgb(46,49,145);
+    justify-content: space-around;
+    
+    
+
+}
+.container img{
+    padding-left: 30px;
+}
+.container ul{
+    list-style: none;
+     float: right; 
+     padding: 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    padding-right: 20px;
+    
+}
+.container ul a{
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container a:hover{
+    color: red;
+}
+.container a::after{
+    border-bottom: 15px solid silver;
+}
+.container a::before{
+    content: "";
+    position: absolute;
+    width: 0.15%;
+    height: 3px;
+    bottom: 3px;
+    transform: translateX(-20%);
+    background-color: #ec1c24;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+.container a:hover::before{
+    visibility: visible;
+    width: 100px;
+}
+footer{
+    background-color: rgb(46,49,145);
+    width: 100%;
+    height: auto;
+}
+.foot{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot1 {
+    padding: 20px;
+    margin-right: -8%;
+
+}
+.foot1 h5{
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot2{
+    padding: 28px 0px;
+}
+.foot2 a{
+    padding: 5px;
+    display: block;
+}
+.foot #fo{
+    padding: 10px 0px;
+}
+.foot2 h2{
+    color: white;
+}
+.foot3 {
+    padding: 28px 0px;
+    margin-left: -7%;
+}
+.foot3 a{
+    padding: 10px ;
+    margin-left: -5%;
+}
+.foot3 h2{
+    color: white;
+}
+.foot3 .clas{
+    padding: 15px 0px;
+}
+.clas h6{
+    color: #dc3545;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.clas #email{
+    padding: 10px 0px;
+}
+#fo :hover{
+    color: #dc3545;
+}
+.clas a:hover{
+    color: #dc3545;
+}
+.foot4 {
+    padding: 28px 0px;
+    margin-left: -8%;
+}
+.foot4 h3{
+    color: white;
+    padding: 5px 0px;
+}
+.foot4 p{
+    padding: 10px 0px;
+    color: white;
+}
+.foot4  img{
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.foots{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.yaska hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.copy {
+    padding: 20px;
+    color: white;
+    padding-left: 130px;
+}
+.copy p{
+    margin-top: -15px;
+    font-size: 17px;
+    margin-right: 40px;
+    
+}
+.icon {
+    padding: 8px 0px;
+    margin-right: 130px;
+    padding-bottom: 15px ;
+}
+.icon a{
+    padding: 5px 0px;
+}
+.home{
+    padding: 100px ;
+    text-align: center;
+    font-size: 40px;
+}
+.home h2{
+    color: #dc3545;
+    padding: 20px 0px;
+}
+.table {
+    padding: 50px;
+    
+}
+table{
+    text-align: center;
+    background-color: rgb(46,49,145);
+    color: #fff;
+    padding: 10px;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 5px;
+}
